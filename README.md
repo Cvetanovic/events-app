@@ -1,68 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Events App
 
-## Available Scripts
+### General info
 
-In the project directory, you can run:
+This project is application for music events
 
-### `yarn start`
+### Technologies
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Project is created with:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- React
 
-### `yarn test`
+- Redux
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Firebase
 
-### `yarn build`
+### Installation and Setup Instructions
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone down this repository. You will need node and npm installed globally on your machine.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Installation:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+\$ npm install
 
-### `yarn eject`
+\$ npm install react-router-dom
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+\$ npm install redux react-redux
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+\$ npm install redux-thunk
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+\$ npm install react-player
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+\$ npm install firebase
 
-## Learn More
+\$ npm install react-redux-firebase redux-firebase
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+\$ npm install moment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+To Start Server:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+ \$ npm start
 
-### Analyzing the Bundle Size
+To Visit App:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+  localhost:3000/
 
-### Making a Progressive Web App
+### Building & Deploying
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+1.  Run `npm run build`, which will compile all the necessary files to the
+    `build` folder.
 
-### Advanced Configuration
+2.  Upload the contents of the `build` folder to your web server's root folder.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### Demo
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Open [Events App](https://events-app-4fc5e.web.app/)
